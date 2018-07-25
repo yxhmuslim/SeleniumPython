@@ -22,6 +22,7 @@ height=code_element.size['height']+top
 im=Image.open("e:/imooc.png")
 img=im.crop((left,top,right,height))
 img.save("e:/imooc1.png")
+print(img)
 
 # email_name=driver.find_element_by_id("register_email")
 # for i in range(6):
